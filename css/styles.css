@@ -1,0 +1,147 @@
+/**************************************
+    google-fonts-oxygen-sans-serif
+**************************************/
+
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+
+/*********************************
+    custom-all-css-property
+*********************************/
+
+:root {
+  --primaryColor: #f2f2f2;
+  --secondaryColor: #8f9ba8;
+  --backgroundColor: #08070b;
+}
+
+/**************************************
+    full-page-common-css-property 
+***************************************/
+
+* {
+  box-sizing: border-box;
+}
+
+/********************************** 
+    full-body-common-utilities
+**********************************/
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--backgroundColor);
+  font-family: "Oxygen", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  max-width: 100vw;
+}
+section {
+  margin: 0 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/************************
+    my-heading-starts 
+*************************/
+.my-heading {
+  font-size: 3rem;
+  padding: 4px;
+  color: var(--primaryColor);
+  text-align: center;
+}
+.my-heading > p {
+  font-size: 1rem;
+}
+.hello-world {
+  margin: 0px 0px 10px 25px;
+}
+samp {
+  font-size: 1.5rem;
+}
+.hello-world img {
+  width: 20px;
+}
+/************************ 
+    my-heading-ends 
+*************************/
+
+/******************** 
+    my-bio-starts 
+*********************/
+
+.my-bio {
+  color: var(--secondaryColor);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/******************* 
+    my-bio-ends 
+********************/
+
+/************************
+    my-tech-starts 
+*************************/
+
+.my-tech {
+  color: var(--primaryColor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.my-tech img {
+  width: 30px;
+  color: var(--secondaryColor);
+}
+.my-tech p {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/************************
+    my-tech-ends
+*************************/
+
+/************************
+   footer-section-starts 
+*************************/
+
+.footer {
+  text-align: center;
+  margin: 0 auto;
+}
+.footer a {
+  text-decoration: none;
+  color: var(--secondaryColor);
+  margin-left: 20px;
+}
+.footer a i {
+  opacity: 0.8;
+  font-size: 24px;
+  color: var(--primaryColor);
+}
+.scanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--primaryColor);
+  margin-bottom: 20px;
+}
+figcaption {
+  font-size: 0.8rem;
+}
+.scanner img {
+  width: 70px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/************************
+   footer-section-starts 
+*************************/

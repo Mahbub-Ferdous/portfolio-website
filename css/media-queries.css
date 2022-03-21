@@ -1,0 +1,43 @@
+@media (max-width: 1080px) {
+  section {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+    height: 100vh;
+  }
+  .my-heading {
+    font-size: 2rem;
+  }
+  .my-heading > p {
+    font-size: 1rem;
+  }
+  .hello-world samp {
+    font-size: 1rem;
+  }
+  .center {
+    text-align: center;
+  }
+}
+
+@media (max-width: 380px) {
+  section {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+    height: 120vh;
+  }
+  .my-heading {
+    font-size: 1.5rem;
+  }
+  .my-heading > p {
+    font-size: 1rem;
+  }
+  .hello-world samp {
+    font-size: 1rem;
+  }
+  .center {
+    text-align: center;
+  }
+}
